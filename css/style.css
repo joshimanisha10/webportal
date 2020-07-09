@@ -11,6 +11,7 @@
 /* Template default CSS
 /*----------------------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
 @font-face {
 	font-family: 'Futura';
 	src: url("../fonts/Futura.woff");
@@ -19,7 +20,7 @@
 html,
 body {
 	height: 100%;
-	font-family: "Lato", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
@@ -30,10 +31,10 @@ h3,
 h4,
 h5,
 h6 {
-	color: #20509e;
+	color: #3D31CD;
 	margin: 0;
-	font-weight: 500;
-	font-family: "Futura", sans-serif;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -94,8 +95,8 @@ ol {
 -----------------------*/
 
 .spad {
-	padding-top: 100px;
-	padding-bottom: 90px;
+	padding-top: 80px;
+	padding-bottom: 20px;
 }
 
 .section-title {
@@ -139,10 +140,10 @@ ol {
 	display: inline-block;
 	padding: 15px 30px;
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 16px;
 	border-radius: 50px;
-	font-family: "Futura", sans-serif;
+	font-family: font-family: 'Montserrat', sans-serif;
 	min-width: 170px;
 	text-align: center;
 	border: 2px solid #7ad4cc;
@@ -327,7 +328,7 @@ ol {
 
 .menu-list li a {
 	display: inline-block;
-	font-family: "Futura", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	padding: 10px 5px;
 	margin-right: 30px;
@@ -339,7 +340,7 @@ ol {
 -----------------------*/
 
 .hero-section {
-	height: 780px;
+	height: 800px;
 	padding-top: 180px;
 	display: block;
 	background-image: url("../img/hero-bg.png");
@@ -388,7 +389,7 @@ ol {
 	height: 48px;
 	padding: 0 25px;
 	border-radius: 50px;
-	font-family: "Futura", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	margin-right: 8px;
 	margin-bottom: 20px;
@@ -689,11 +690,14 @@ ol {
 .author-name {
 	position: absolute;
 	width: 280px;
+	
 	left: -50%;
 	bottom: -10px;
 	margin-left: -50px;
+
 	text-align: center;
 	visibility: hidden;
+	
 }
 
 .center .author-meta {
@@ -825,7 +829,7 @@ ol {
 
 .blog-text .post-date {
 	font-size: 14px;
-	font-family: "Futura", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #16d0c5;
 	text-transform: uppercase;
 	margin-bottom: 15px;
@@ -971,7 +975,8 @@ ol {
 }
 
 .page-info-section h2 {
-	font-size: 48px;
+	margin-top: 50px;
+	font-size: 30px;
 }
 
 .site-beradcamb {
@@ -998,6 +1003,7 @@ ol {
 
 .blog-page .blog-item {
 	margin-bottom: 30px;
+	
 }
 
 .blog-page .readmore {
@@ -1248,7 +1254,7 @@ ol {
 }
 
 .comment .comment-content .c-btn {
-	font-family: "Futura", sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	display: inline-block;
 	font-size: 14px;
 	border: 1px solid #ebebeb;
@@ -1499,7 +1505,10 @@ ol {
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.menu-list li a {
-		margin-right: 15px;
+		margin-right: 10px;
+	}
+	.menu-list li a:hover {
+		border-bottom: #1f6ae5 3px solid;
 	}
 	.hero-section,
 	.page-info-section {
